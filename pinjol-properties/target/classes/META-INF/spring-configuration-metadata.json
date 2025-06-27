@@ -1,0 +1,30 @@
+{
+  "groups": [
+    {
+      "name": "pinjol.loan",
+      "type": "com.project.loan.configuration.LoanProperties",
+      "sourceType": "com.project.loan.configuration.LoanProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "pinjol.loan.delinquent-days-limit",
+      "type": "java.lang.Integer",
+      "sourceType": "com.project.loan.configuration.LoanProperties"
+    },
+    {
+      "name": "pinjol.loan.interest-rate",
+      "type": "java.math.BigDecimal",
+      "sourceType": "com.project.loan.configuration.LoanProperties"
+    },
+    {
+      "name": "pinjol.loan.term",
+      "type": "java.lang.Integer",
+      "sourceType": "com.project.loan.configuration.LoanProperties"
+    }
+  ],
+  "hints": [],
+  "ignored": {
+    "properties": []
+  }
+}
